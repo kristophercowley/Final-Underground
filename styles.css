@@ -1,6 +1,23 @@
 h1 {
-	color: blue;
+	color: red;
+	text-align: center;
 }
 body {
-	background-image: url(images/darkhall.jpg)
+	background-image: url(images/darkhall.jpg);
+	
+}
+#show-calendar {
+	float: right;
+}
+#fb-calendar{
+	float:right;
+}
+
+.header-text{
+	color: white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+footer{
+	color: white;
+	text-align: center;
 }

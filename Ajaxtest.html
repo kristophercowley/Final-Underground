@@ -1,0 +1,25 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>AJAX Test</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+</head>
+
+<body>
+	
+	<script>
+		$.get("test.html", function(data){
+			alert(data);
+		});
+		
+		$.ajax({
+			url:"test.html"
+		}).done(function(data){
+			alert(data);
+		})
+	</script>
+
+</body>
+
+</html>
