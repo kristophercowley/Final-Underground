@@ -18,6 +18,16 @@ body {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 footer{
-	color: white;
+	color: darkgray;
 	text-align: center;
+	background-color: black;
+}
+.construction {
+	/*float: left;*/
+}
+.footerdiv {
+	background-color: darkgrey;
+	position: fixed; bottom: 0%; 
+	width: 100%;
+	
 }
