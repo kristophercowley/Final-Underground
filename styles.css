@@ -4,6 +4,19 @@ h1 {
 }
 body {
 	background-image: url(images/darkhall.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+.cen {
+	
+}
+.mainimg {
+	width: 100%;
+}
+.sides {
 	
 }
 #show-calendar {
