@@ -1,0 +1,24 @@
+{
+  "name": "Final Underground",
+  "homepage": "https://github.com/kristophercowley/Final-Underground",
+  "authors": [
+    "Kristopher Cowley <kristopherleecowley@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.0",
+    "angularfire": "^1.1.4",
+    "angular-ui-router": "ui-router#^0.2.18"
+  }
+}

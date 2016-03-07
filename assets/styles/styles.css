@@ -2,6 +2,7 @@ h1 {
 	color: red;
 	text-align: center;
 }
+/*Background not working since updating dependencies and relocating stylesheet*/
 body {
 	background-image: url(images/darkhall.jpg);
 	background-position: center center;
