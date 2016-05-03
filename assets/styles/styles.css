@@ -1,25 +1,26 @@
 h1 {
-	color: red;
+	color:black;
 	text-align: center;
+	text-shadow: 1px 1px grey;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*Background not working since updating dependencies and relocating stylesheet*/
 body {
-	background-image: url(images/darkhall.jpg);
+	background-image: url('/images/darkhall.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	
 }
-.cen {
-	
+
+.center {
+	text-align: center;
 }
 .mainimg {
 	width: 100%;
 }
-.sides {
-	
-}
+
 #show-calendar {
 	float: right;
 }
@@ -45,3 +46,4 @@ footer{
 	width: 100%;
 	
 }
+
