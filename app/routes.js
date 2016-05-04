@@ -14,6 +14,24 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             controller: 'MainController'
         })
         
+        .state('photos', {
+            url: '/photos',
+            templateUrl: '/app/templates/photos.html',
+            controller: 'MainController'
+        })
+        
+        .state('flyers', {
+            url: '/flyers',
+            templateUrl: '/app/templates/flyers.html',
+            controller: 'MainController'
+        })
+        
+        .state('player', {
+            url: '/player',
+            templateUrl: '/app/templates/player.html',
+            controller: 'MainController'
+        })
+        
         // .state('login', {
         //     url: '/page1',
         //     templateUrl: 'templates/login.html',
